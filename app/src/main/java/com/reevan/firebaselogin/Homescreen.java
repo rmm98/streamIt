@@ -49,7 +49,7 @@ public class Homescreen extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(Homescreen.this,Watch.class);
-                i.putExtra("address","https://firebasestorage.googleapis.com/v0/b/streamit-ff036.appspot.com/o/emojimovie.mp4?alt=media&token=3c9b06c1-a552-40b9-8160-881a36a837f9");
+                i.putExtra("address","storage_link");
                 startActivity(i);
             }
         });
@@ -58,7 +58,7 @@ public class Homescreen extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(Homescreen.this,Watch.class);
-                i.putExtra("address","https://firebasestorage.googleapis.com/v0/b/streamit-ff036.appspot.com/o/angrybirds.mp4?alt=media&token=c37c5de4-7c32-4770-bb95-7741238476f2");
+                i.putExtra("address","storage_link");
                 startActivity(i);
             }
         });
@@ -68,7 +68,7 @@ public class Homescreen extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(Homescreen.this,Watch.class);
-                i.putExtra("address","https://firebasestorage.googleapis.com/v0/b/streamit-ff036.appspot.com/o/mrrorbot.mp4?alt=media&token=5fe13fae-ca7d-4feb-9ee2-c0a5be2d672e");
+                i.putExtra("address","storage_link");
                 startActivity(i);
             }
         });
@@ -77,7 +77,7 @@ public class Homescreen extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(Homescreen.this,Watch.class);
-                i.putExtra("address","https://firebasestorage.googleapis.com/v0/b/streamit-ff036.appspot.com/o/friends.mp4?alt=media&token=0c41a4da-362a-460a-a075-090c7d91b985");
+                i.putExtra("address","storage_link");
                 startActivity(i);
             }
         });
@@ -87,7 +87,7 @@ public class Homescreen extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(Homescreen.this,Watch.class);
-                i.putExtra("address","https://firebasestorage.googleapis.com/v0/b/streamit-ff036.appspot.com/o/perfect.mp4?alt=media&token=623efbbd-07e0-45e4-aebc-279fd98dbdbd");
+                i.putExtra("address","storage_link");
                 startActivity(i);
             }
         });
@@ -97,7 +97,7 @@ public class Homescreen extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(Homescreen.this,Watch.class);
-                i.putExtra("address","https://firebasestorage.googleapis.com/v0/b/streamit-ff036.appspot.com/o/mahi.mp4?alt=media&token=c75e9ee7-ecde-4ef4-b274-3327d95e2e31");
+                i.putExtra("address","storage_link");
                 startActivity(i);
             }
         });
